@@ -1,6 +1,6 @@
 
 
-public class Cpu {
+public final class Cpu {
     private final int weight;
     private final int frequency;
     private final String name;

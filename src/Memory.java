@@ -29,6 +29,6 @@ public class Memory {
         return new Memory(weight,volume,type);
     }
     public String toString() {
-        return " Вес оперативки: " + this.weight + " Объем памяти: " + this.volume + " Тип памяти: " + Type.MEMORY.getValue();
+        return " Вес оперативки: " + this.weight + " Объем памяти: " + this.volume + " Тип памяти: " + this.type;
     }
 }
